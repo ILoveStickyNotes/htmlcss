@@ -43,6 +43,9 @@ p {
 
 .author-text {
     font-size: 22px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 .container {
@@ -58,6 +61,7 @@ p {
     width: 75%;
     float: left;
     padding-right: 30px;
+    position: relative;
 }
 
 .other-posts {
@@ -70,9 +74,33 @@ p {
     border-top: 1px solid grey;
 }
 
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.other {
+    margin-bottom: 40px;
+}
+
+.blog-post img {
+    height: 150px;
+    width: auto;
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
 
 /*Never want to use ID
 #author-text {
     font-size: 22px;
 }
+*/
+
 */
